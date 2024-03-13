@@ -1,6 +1,6 @@
 import "./App.css";
 import userData from "../userData.json";
-import Profile from "./Profile";
+import Profile from "./Profile/Profile";
 
 export default function App() {
   return (

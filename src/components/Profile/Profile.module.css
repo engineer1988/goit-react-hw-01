@@ -1,0 +1,62 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid rgb(162, 154, 154);
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  width: 646px;
+  font-size: 35px;
+  background-color: rgb(203, 197, 197);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.list_item {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% / 3));
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.list_item:not(:last-child) {
+  border-right: 3px solid rgb(162, 154, 154);
+}
+.list_item_span {
+  font-style: normal;
+  font-weight: bold;
+}
+.profile {
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 646px;
+  height: 703px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+}
+.profile_foto {
+  width: 247px;
+  height: 247px;
+  border-radius: 50%;
+  background-color: black;
+}
+.profile_card {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+.profile_name {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.profile_tag {
+  color: rgb(162, 154, 154);
+  margin-bottom: 10px;
+}
+.profile_location {
+  color: rgb(162, 154, 154);
+}
