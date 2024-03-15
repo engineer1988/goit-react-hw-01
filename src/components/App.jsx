@@ -2,9 +2,9 @@ import "./App.css";
 import userData from "../userData.json";
 import friends from "../friends.json";
 import transactions from "../transactions.json";
-import Profile from "./profile/Profile";
-import FriendList from "./friendList/FriendList";
-import TransactionHistory from "./transactionHistory/TransactionHistory";
+import Profile from "./task-1/Profile";
+import FriendList from "./task-2/FriendList";
+import TransactionHistory from "./task-3/TransactionHistory";
 
 export default function App() {
   return (

@@ -1,5 +1,5 @@
 import css from "./TransactionHistory.module.css";
-import TransactionHistoryItem from "../transactionHistoryItem/TransactionHistoryItem";
+import TransactionHistoryItem from "../task-3-item/TransactionHistoryItem";
 
 const TransactionHistory = ({ items }) => {
   return (
