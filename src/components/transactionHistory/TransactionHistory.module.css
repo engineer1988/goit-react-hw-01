@@ -1,0 +1,17 @@
+.table {
+  width: 741px;
+  height: 372px;
+}
+.table_item {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+.table_item:first-child {
+  border-left: 1px solid black;
+}
+
+.card:nth-child(even) {
+  background-color: rgb(207, 202, 202);
+}

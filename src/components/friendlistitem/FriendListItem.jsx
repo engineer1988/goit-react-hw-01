@@ -1,7 +1,5 @@
 import PropTypes from "prop-types";
 import css from "./FriendListItem.module.css";
-// import clsx from "clsx";
-// import clsx from "clsx";
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <div className={css.friendListItem}>
@@ -19,8 +17,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 };
 
 FriendListItem.propTypes = {
-  name: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
-  // isOnline: PropTypes.bool.isRequired,
+  name: PropTypes.string,
+  avatar: PropTypes.string,
 };
 export default FriendListItem;
